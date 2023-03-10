@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+
+
+header{
+    background-color: #14283F;
+    height: 100px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 1px solid #748D9F;
+}
+
+.logo{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#logoimg{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.navigation{
+    width: 65%;
+
+}
+
+nav{
+    border-radius: 10px 30px;
+    padding: 12px;
+    background-color: #748D9F;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+}
+
+nav > a{
+    text-decoration: none;
+    color: #14283F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    
+}
+
+/* =====================FIM DO HEADER ===================== */
+
+
+
+.home{
+    display: flex;
+    height: 100vh; 
+    background-color: #14283F;
+    color: white;
+}
+
+
+.leftbox-home{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.apresentacao{
+    width: 70%;
+    height: 400px;
+    
+}
+
+.apresentacao > h1{
+    width: 100%;
+    font-size: 50px;
+    line-height: 52px;
+    font-family: 'Courgette', cursive;
+}
+
+.apresentacao > p {
+    margin: 35px 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apresentacao > a{
+    color: #14283F;
+    background-color: white;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apresentacao > a:hover{
+    background-color: #748D9F;
+    color: white;
+    transition: 0.5s;
+}
+
+.rightbox-home{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightbox-home > img{
+    width: 50%;
+    max-width: 500px;
+    border-radius: 50%;
+    border: 7px solid #748D9F;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.rightbox-home > img:hover{
+    padding: 15px;
+    border: 10px solid white;
+
+}
+
+/* ================== FIM DA HOME =================================== */
+
+
+.produtos{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #748D9F;
+    color: #14283F;
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+}
+
+
+.boxsectionprodutos > h1{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 30px;
+    
+}
+
+hr{ 
+
+    width: 400px;
+    height: 2px;
+    background-color: #14283F;
+    margin-bottom: 30px;
+    border: 0;
+}
+
+.boxsectionprodutos{
+    padding: 50px;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxprodutos{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    overflow: hidden;
+    width: 460px;
+    height: 700px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+li{
+    font-size: 25px;
+}
+.produto > p{
+    width: 470px;
+    font-size: 24px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.produto > img{
+    width: 270px;
+    border-radius: 50%;
+    
+}
+
+.produto > h2{
+
+    margin: 20px 0 25px;
+}
+
+
+/* ================== FIM PRODUTOS =================================== */
+
+.localizacao{
+    background-color: #14283F;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.boxlocal> h1{
+    font-family: 'Courgette', cursive;
+    letter-spacing: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: #748D9F;
+    margin-bottom: 30px;
+}
